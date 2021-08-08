@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding: 1rem;
+    background-color:  #eb6b7e;
+    nav  ul a{
+        text-decoration: none;
+        display: block;
+        nav ul a:hover{
+            Text-decoration: underline;
+               }
+      
+        }   
+    }                                            
+   
+.fotosCarrusel{
+    width: 450px;
+    height: 30rem;
+    margin: 0 auto;
+}
+
+h1{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+/*revisar como arreglar las imagenes*/
+section{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    padding: 25px;  
+    .fotoVenta{
+        width: 250px;
+        height: 250px;
+        margin: 2%; 
+        img{
+            object-fit: cover;
+            overflow: visible;
+            margin: auto;
+        }
+    }
+}
+.footer{
+    background-color: #ffc0cb;
+    
+} 
+.formulario{
+    border:#ffc0cb;   
+    height: 650px;
+    width: 500px;
+    margin: 20px;
+    padding: 60px;
+    display: inline-block;
+    border:double pink;
+        
+    }
+    .caja2020{
+        width: 300px;
+        height: 200px;
+        display: inline-block;
+       
+     }
+     .btn-primary{
+        
+        background-color: #ffc0cb;
+        border-color: #ffc0cb;
+    }
+     .btn-primary:hover {
+    color:  #212529;
+    background-color: #f4e4a9;
+    border-color: #ffc0cb;
+}
+     
+ /* Tablet Styles */
+@media only screen and (min-width: 401px ) and (max-width: 960px){
+    body {
+        background-color:rgb(243, 224, 199);
+    }
+}
+
+    /* Desktop Styles */
+@media only screen and (min-width: 961px){
+    .page {
+        width: 960px;
+        margin: 0 auto;
+    }
+}
