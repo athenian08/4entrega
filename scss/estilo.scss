@@ -1,3 +1,4 @@
+@import "colores";
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +7,7 @@
 
 nav{
     padding: 1rem;
-    background-color:  #eb6b7e;
+    background-color: $bgcolornav;
     nav  ul a{
         text-decoration: none;
         display: block;
@@ -46,47 +47,62 @@ section{
     }
 }
 .footer{
-    background-color: #ffc0cb;
+    background-color: $bgcolorfooter;
     
 } 
 .formulario{
-    border:#ffc0cb;   
+    border: $bgcolorformulario;   
     height: 650px;
     width: 500px;
     margin: 20px;
     padding: 60px;
     display: inline-block;
-    border:double pink;
-        
+    border:double $bgcolorformulario;
     }
-    .caja2020{
+    .btn-primary{
+        background-color: $bgcolorformulario;
+        border-color: $bgcolorformulario;
+    }
+     .btn-primary:hover {
+    color:  #212529;
+    background-color: $bgcolorboton;
+    border-color: $bgcolorformulario;
+}
+.caja2020{
         width: 300px;
         height: 200px;
         display: inline-block;
        
+}
+/* Tablet Styles */
+@media only screen and (min-width: 401px ) and (max-width: 960px) {
+    p {
+      font-size: 1.0rem; }
+    .ampliar {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto; }
      }
-     .btn-primary{
-        
-        background-color: #ffc0cb;
-        border-color: #ffc0cb;
-    }
-     .btn-primary:hover {
-    color:  #212529;
-    background-color: #f4e4a9;
-    border-color: #ffc0cb;
-}
-     
- /* Tablet Styles */
-@media only screen and (min-width: 401px ) and (max-width: 960px){
-    body {
-        background-color:rgb(243, 224, 199);
-    }
-}
+ /* Desktop Styles */
+@media only screen and (min-width: 961px) {
+    p {
+      font-size: 1.0rem; }
+    .ampliar {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto; }
+     }
+  /* iPhone 4 */
+     @media only screen and (-webkit-min-device-pixel-ratio : 1.5), 
+     only screen and (min-device-pixel-ratio : 1.5) {
+    p {
+      font-size: 1.0rem; }
+    .ampliar {
+      width: 500px;
+      height: 500px;
+      margin: 0 auto; }
+     }
 
-    /* Desktop Styles */
-@media only screen and (min-width: 961px){
-    .page {
-        width: 960px;
-        margin: 0 auto;
-    }
-}
+ 
+   
+

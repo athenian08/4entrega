@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  padding: 1rem;
+  background-color: #eb6b7e;
+}
+
+nav nav ul a {
+  text-decoration: none;
+  display: block;
+}
+
+nav nav ul a nav ul a:hover {
+  Text-decoration: underline;
+}
+
+.fotosCarrusel {
+  width: 450px;
+  height: 30rem;
+  margin: 0 auto;
+}
+
+h1 {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+/*revisar como arreglar las imagenes*/
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 25px;
+}
+
+section .fotoVenta {
+  width: 250px;
+  height: 250px;
+  margin: 2%;
+}
+
+section .fotoVenta img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  overflow: visible;
+  margin: auto;
+}
+
+.footer {
+  background-color: #ffc0cb;
+}
+
+.formulario {
+  border: #ffc0cb;
+  height: 650px;
+  width: 500px;
+  margin: 20px;
+  padding: 60px;
+  display: inline-block;
+  border: double #ffc0cb;
+}
+
+.btn-primary {
+  background-color: #ffc0cb;
+  border-color: #ffc0cb;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #f4e4a9;
+  border-color: #ffc0cb;
+}
+
+.caja2020 {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  p {
+    font-size: 1.0rem;
+  }
+  .ampliar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  p {
+    font-size: 1.0rem;
+  }
+  .ampliar {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
+
+/* iPhone 4 */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  p {
+    font-size: 1.0rem;
+  }
+  .ampliar {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+}
+/*# sourceMappingURL=estilo.css.map */
