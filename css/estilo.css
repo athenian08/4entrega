@@ -63,6 +63,9 @@ section {
   height: 200px;
   display: inline-block; }
 
+.subtitulo {
+  color: #af4d98; }
+
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   p {
