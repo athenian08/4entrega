@@ -23,13 +23,18 @@ nav{
     height: 30rem;
     margin: 0 auto;
 }
+.fotosCarrusel2{
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+}
 
 h1{
     margin: 5px;
     padding: 5px;
     text-align: center;
 }
-/*revisar como arreglar las imagenes*/
+
 section{
     display: flex;
     flex-direction: wrap;
@@ -39,6 +44,7 @@ section{
         width: 250px;
         height: 250px;
         margin: 2%; 
+       
         img{
             object-fit: cover;
             overflow: visible;
@@ -72,7 +78,7 @@ section{
         width: 300px;
         height: 200px;
         display: inline-block;
-       
+     
 }
 .subtitulo{
     color: $bgcolorsubtitulo;

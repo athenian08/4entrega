@@ -25,13 +25,18 @@ nav nav ul a nav ul a:hover {
   margin: 0 auto;
 }
 
+.fotosCarrusel2 {
+  width: 700px;
+  height: 400px;
+  margin: 0 auto;
+}
+
 h1 {
   margin: 5px;
   padding: 5px;
   text-align: center;
 }
 
-/*revisar como arreglar las imagenes*/
 section {
   display: -webkit-box;
   display: -ms-flexbox;
