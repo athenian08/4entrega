@@ -63,6 +63,11 @@ section .fotoVenta img {
   margin: auto;
 }
 
+.scale:hover {
+  -webkit-transform: scale(1.2, 1.2);
+          transform: scale(1.2, 1.2);
+}
+
 .footer {
   background-color: #ffc0cb;
 }
@@ -128,8 +133,8 @@ section .fotoVenta img {
     font-size: 1.0rem;
   }
   .ampliar {
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
     margin: 0 auto;
   }
 }
