@@ -64,8 +64,8 @@ section .fotoVenta img {
 }
 
 .scale:hover {
-  -webkit-transform: scale(1.2, 1.2);
-          transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.1, 1.1);
+          transform: scale(1.1, 1.1);
 }
 
 .footer {
@@ -99,8 +99,41 @@ section .fotoVenta img {
   display: inline-block;
 }
 
+.titulo {
+  color: #eb6b7e;
+}
+
 .subtitulo {
   color: #af4d98;
+}
+
+.contenedor {
+  width: 200px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.hijo {
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px;
+  margin: 20px;
+}
+
+.rotate:hover {
+  -webkit-transform: rotate(10deg);
+          transform: rotate(10deg);
+}
+
+.quienessomos:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
 }
 
 /* Tablet Styles */

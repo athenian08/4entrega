@@ -42,7 +42,7 @@ section {
       margin: auto; }
 
 .scale:hover {
-  transform: scale(1.2, 1.2); }
+  transform: scale(1.1, 1.1); }
 
 .footer {
   background-color: #ffc0cb; }
@@ -70,8 +70,30 @@ section {
   height: 200px;
   display: inline-block; }
 
+.titulo {
+  color: #eb6b7e; }
+
 .subtitulo {
   color: #af4d98; }
+
+.contenedor {
+  width: 200px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px; }
+
+.hijo {
+  background-color: white;
+  justify-content: center;
+  padding: 15px;
+  margin: 20px; }
+
+.rotate:hover {
+  transform: rotate(10deg); }
+
+.quienessomos:hover {
+  transform: scale(0.9, 0.9); }
 
 /* Tablet Styles */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
