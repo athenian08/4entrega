@@ -100,7 +100,7 @@ section .fotoVenta img {
 }
 
 .titulo {
-  color: #eb6b7e;
+  font-family: unset;
 }
 
 .subtitulo {

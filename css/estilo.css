@@ -71,7 +71,7 @@ section {
   display: inline-block; }
 
 .titulo {
-  color: #eb6b7e; }
+  font-family: unset; }
 
 .subtitulo {
   color: #af4d98; }
