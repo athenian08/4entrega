@@ -125,7 +125,29 @@ section{
 .quienessomos:hover{
     transform: scale(0.9, 0.9);  
 }
-
+/* pruebass */
+main{
+    display: flex;
+    flex-direction: wrap;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+ 
+  .principal{
+   width: 50%;
+   height: 70px;
+  
+   }
+   .icono1{ 
+   background-color: white;
+   padding: 10px;
+}
+   .icono2{ 
+    
+    background-color: white;
+    text-align: right;
+    padding: 15px;
+    }
 
 
 /* Tablet Styles */
