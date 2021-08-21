@@ -67,6 +67,7 @@ section{
             margin: auto;
         }
     }
+  
 }
 .scale:hover{
     transform: scale(1.1, 1.1);
@@ -95,7 +96,7 @@ section{
 }
 .caja2020{
         width: 300px;
-        height: 200px;
+        height: 00px;
         display: inline-block;
      
 }
@@ -116,7 +117,7 @@ section{
 .hijo{
     background-color:white;
     justify-content: center;
-    padding: 15px;
+    padding: 10px;
     margin: 20px;
 }
 .rotate:hover{
@@ -125,25 +126,22 @@ section{
 .quienessomos:hover{
     transform: scale(0.9, 0.9);  
 }
-/* pruebass */
+/* para organizar carrito de compra*/
 main{
     display: flex;
     flex-direction: wrap;
     flex-wrap: wrap;
     justify-content: space-around;
   }
- 
-  .principal{
+   .principal{
    width: 50%;
    height: 70px;
-  
    }
    .icono1{ 
    background-color: white;
    padding: 10px;
 }
    .icono2{ 
-    
     background-color: white;
     text-align: right;
     padding: 15px;
@@ -152,25 +150,39 @@ main{
 
 /* Pequeños Styles  */
 @media only screen and (min-width: 401px ) and (max-width: 960px) {
+    .imagenLatina{
+         background-color: #fcf8ee;
+         }
+    .espacio{
+        background-color: #fcf8ee
+   }
+   
+}
     body{
         background-color: #fcf8ee;}
-    p {
+       
+        .tamanoSomos{
+            width: 350px;
+            height: 350px;
+            margin: 0 auto;
+            padding: 20px; }
+       p {
       font-size: 1.0rem; }
     .fotosCarrusel2{
-      width: 350px;
-      height: 350px;
+      width: 750px;
+      height: 750px;
       margin: 0 auto;
       padding: 10px; }
-     }
-     .menu{
+    .menu{
         margin: 0 auto;
         padding: 15px;    
      }
-    
-    
-    
+ 
+     
+       
+     
  /* Desktop Styles */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px){
     body{
     background-color: white;}
     p {
@@ -182,10 +194,16 @@ main{
        }
   /* Tabletas Styles */
      @media only screen and (min-width:  768px) {
+        body{
+            background-color: white;}
+        .espacioParrafo{
+            margin: 0 auto;
+            padding: 400px; }
+         
     p {
       font-size: 1.0rem; 
        }
-      .fotosCarrusel1{
+    .fotosCarrusel1{
         width: 150px;
         height: 150px;
         margin: 0 auto; }
