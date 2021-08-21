@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -128,29 +129,43 @@ main {
   text-align: right;
   padding: 15px; }
 
-/* Tablet Styles */
+/* Pequeños Styles  */
 @media only screen and (min-width: 401px) and (max-width: 960px) {
+  body {
+    background-color: #fcf8ee; }
   p {
     font-size: 1.0rem; }
-  .ampliar {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto; } }
+  .fotosCarrusel2 {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 10px; } }
+
+.menu {
+  margin: 0 auto;
+  padding: 15px; }
 
 /* Desktop Styles */
-@media only screen and (min-width: 961px) {
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: white; }
   p {
     font-size: 1.0rem; }
-  .ampliar {
-    width: 200px;
-    height: 200px;
+  .fotosCarrusel3 {
+    width: 350px;
+    height: 300px;
     margin: 0 auto; } }
 
-/* iPhone 4 */
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+/* Tabletas Styles */
+@media only screen and (min-width: 768px) {
   p {
     font-size: 1.0rem; }
-  .ampliar {
-    width: 100px;
-    height: 100px;
+  .fotosCarrusel1 {
+    width: 150px;
+    height: 150px;
     margin: 0 auto; } }
+
+.footerTamano {
+  width: 95%;
+  padding: 10px;
+  margin: 0 auto; }
