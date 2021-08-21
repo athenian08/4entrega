@@ -156,7 +156,7 @@ section .fotoVenta img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 15px;
+  padding: 10px;
   margin: 20px;
 }
 
@@ -206,6 +206,12 @@ main {
   body {
     background-color: #fcf8ee;
   }
+  .tamanoSomos {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 10px;
+  }
   p {
     font-size: 1.0rem;
   }
@@ -239,6 +245,13 @@ main {
 
 /* Tabletas Styles */
 @media only screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+  .espacioParrafo {
+    margin: 0 auto;
+    padding: 400px;
+  }
   p {
     font-size: 1.0rem;
   }

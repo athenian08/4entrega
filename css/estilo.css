@@ -20,11 +20,13 @@
 nav {
   padding: 1rem;
   background-color: #eb6b7e; }
-  nav nav ul a {
-    text-decoration: none;
-    display: block; }
-    nav nav ul a nav ul a:hover {
-      Text-decoration: underline; }
+
+nav nav ul a {
+  text-decoration: none;
+  display: block; }
+
+nav nav ul a nav ul a:hover {
+  Text-decoration: underline; }
 
 .fotosCarrusel {
   width: 450px;
@@ -46,14 +48,16 @@ section {
   flex-direction: wrap;
   flex-wrap: wrap;
   padding: 25px; }
-  section .fotoVenta {
-    width: 250px;
-    height: 250px;
-    margin: 2%; }
-    section .fotoVenta img {
-      object-fit: cover;
-      overflow: visible;
-      margin: auto; }
+
+section .fotoVenta {
+  width: 250px;
+  height: 250px;
+  margin: 2%; }
+
+section .fotoVenta img {
+  object-fit: cover;
+  overflow: visible;
+  margin: auto; }
 
 .scale:hover {
   transform: scale(1.1, 1.1); }
@@ -100,7 +104,7 @@ section {
 .hijo {
   background-color: white;
   justify-content: center;
-  padding: 15px;
+  padding: 10px;
   margin: 20px; }
 
 .rotate:hover {
@@ -133,6 +137,11 @@ main {
 @media only screen and (min-width: 401px) and (max-width: 960px) {
   body {
     background-color: #fcf8ee; }
+  .tamanoSomos {
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 10px; }
   p {
     font-size: 1.0rem; }
   .fotosCarrusel2 {
@@ -158,6 +167,11 @@ main {
 
 /* Tabletas Styles */
 @media only screen and (min-width: 768px) {
+  body {
+    background-color: white; }
+  .espacioParrafo {
+    margin: 0 auto;
+    padding: 400px; }
   p {
     font-size: 1.0rem; }
   .fotosCarrusel1 {

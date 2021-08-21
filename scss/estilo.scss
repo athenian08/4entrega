@@ -1,224 +1,182 @@
 @import "colores";
-
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-}
-.aparecer{
+    box-sizing: border-box; }
+  
+  .aparecer {
     animation-duration: 8s;
     animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-@keyframes aparecer {
+    animation-iteration-count: infinite; }
+  
+  @keyframes aparecer {
     0% {
-        opacity: 0;
-        }
+      opacity: 0; }
     50% {
-        opacity: 1;
-        }
+      opacity: 1; }
     100% {
-      opacity: 0;
-        }
-}
-nav{
+      opacity: 0; } }
+  
+  nav {
     padding: 1rem;
-    background-color: $bgcolornav;
-    nav  ul a{
-        text-decoration: none;
-        display: block;
-        nav ul a:hover{
-            Text-decoration: underline;
-               }
-      
-        }   
-    }                                            
-   
-.fotosCarrusel{
+    background-color: #eb6b7e; }
+    nav nav ul a {
+      text-decoration: none;
+      display: block; }
+      nav nav ul a nav ul a:hover {
+        Text-decoration: underline; }
+  
+  .fotosCarrusel {
     width: 450px;
     height: 30rem;
-    margin: 0 auto;
-}
-.fotosCarrusel2{
+    margin: 0 auto; }
+  
+  .fotosCarrusel2 {
     width: 800px;
     height: 500px;
-    margin: 0 auto;
-}
-
-h1{
+    margin: 0 auto; }
+  
+  h1 {
     margin: 5px;
     padding: 5px;
-    text-align: center;
-}
-
-section{
+    text-align: center; }
+  
+  section {
     display: flex;
     flex-direction: wrap;
     flex-wrap: wrap;
-    padding: 25px;  
-    .fotoVenta{
-        width: 250px;
-        height: 250px;
-        margin: 2%; 
-       
-        img{
-            object-fit: cover;
-            overflow: visible;
-            margin: auto;
-        }
-    }
+    padding: 25px; }
+    section .fotoVenta {
+      width: 250px;
+      height: 250px;
+      margin: 2%; }
+      section .fotoVenta img {
+        object-fit: cover;
+        overflow: visible;
+        margin: auto; }
   
-}
-.scale:hover{
-    transform: scale(1.1, 1.1);
-}
-.footer{
-    background-color: $bgcolorfooter;
-    
-} 
-.formulario{
-    border: $bgcolorformulario;   
+  .scale:hover {
+    transform: scale(1.1, 1.1); }
+  
+  .footer {
+    background-color: #ffc0cb; }
+  
+  .formulario {
+    border: #ffc0cb;
     height: 650px;
     width: 500px;
     margin: 20px;
     padding: 60px;
     display: inline-block;
-    border:double $bgcolorformulario;
-    }
-    .btn-primary{
-        background-color: $bgcolorformulario;
-        border-color: $bgcolorformulario;
-    }
-     .btn-primary:hover {
-    color:  #212529;
-    background-color: $bgcolorboton;
-    border-color: $bgcolorformulario;
-}
-.caja2020{
-        width: 300px;
-        height: 00px;
-        display: inline-block;
-     
-}
-.titulo{
-    font-family:unset;
-}
-.subtitulo{
-    color: $bgcolorsubtitulo;
-}
-
-.contenedor{
-  width: 200px;    
-  height: 500px;   
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px; 
-}
-.hijo{
-    background-color:white;
+    border: double #ffc0cb; }
+  
+  .btn-primary {
+    background-color: #ffc0cb;
+    border-color: #ffc0cb; }
+  
+  .btn-primary:hover {
+    color: #212529;
+    background-color: #f4e4a9;
+    border-color: #ffc0cb; }
+  
+  .caja2020 {
+    width: 300px;
+    height: 200px;
+    display: inline-block; }
+  
+  .titulo {
+    font-family: unset; }
+  
+  .subtitulo {
+    color: #af4d98; }
+  
+  .contenedor {
+    width: 200px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px; }
+  
+  .hijo {
+    background-color: white;
     justify-content: center;
     padding: 10px;
-    margin: 20px;
-}
-.rotate:hover{
-    transform:rotate(10deg);
-}
-.quienessomos:hover{
-    transform: scale(0.9, 0.9);  
-}
-/* para organizar carrito de compra*/
-main{
+    margin: 20px; }
+  
+  .rotate:hover {
+    transform: rotate(10deg); }
+  
+  .quienessomos:hover {
+    transform: scale(0.9, 0.9); }
+  
+  /* pruebass */
+  main {
     display: flex;
     flex-direction: wrap;
     flex-wrap: wrap;
-    justify-content: space-around;
-  }
-   .principal{
-   width: 50%;
-   height: 70px;
-   }
-   .icono1{ 
-   background-color: white;
-   padding: 10px;
-}
-   .icono2{ 
+    justify-content: space-around; }
+  
+  .principal {
+    width: 50%;
+    height: 70px; }
+  
+  .icono1 {
+    background-color: white;
+    padding: 10px; }
+  
+  .icono2 {
     background-color: white;
     text-align: right;
-    padding: 15px;
-    }
-
-
-/* Pequeños Styles  */
-@media only screen and (min-width: 401px ) and (max-width: 960px) {
-    .imagenLatina{
-         background-color: #fcf8ee;
-         }
-    .espacio{
-        background-color: #fcf8ee
-   }
-   
-}
-    body{
-        background-color: #fcf8ee;}
-       
-        .tamanoSomos{
-            width: 350px;
-            height: 350px;
-            margin: 0 auto;
-            padding: 20px; }
-       p {
-      font-size: 1.0rem; }
-    .fotosCarrusel2{
-      width: 750px;
-      height: 750px;
+    padding: 15px; }
+  
+  /* Pequeños Styles  */
+  @media only screen and (min-width: 401px) and (max-width: 960px) {
+    body {
+      background-color: #fcf8ee; }
+    .tamanoSomos {
+      width: 350px;
+      height: 350px;
       margin: 0 auto;
       padding: 10px; }
-    .menu{
-        margin: 0 auto;
-        padding: 15px;    
-     }
- 
-     
-       
-     
- /* Desktop Styles */
-@media only screen and (min-width: 1024px){
-    body{
-    background-color: white;}
     p {
       font-size: 1.0rem; }
-      .fotosCarrusel3{
-        width: 350px;
-        height: 300px;
-        margin: 0 auto; }
-       }
-  /* Tabletas Styles */
-     @media only screen and (min-width:  768px) {
-        body{
-            background-color: white;}
-        .espacioParrafo{
-            margin: 0 auto;
-            padding: 400px; }
-         
+    .fotosCarrusel2 {
+      width: 350px;
+      height: 350px;
+      margin: 0 auto;
+      padding: 10px; } }
+  
+  .menu {
+    margin: 0 auto;
+    padding: 15px; }
+  
+  /* Desktop Styles */
+  @media only screen and (min-width: 1024px) {
+    body {
+      background-color: white; }
     p {
-      font-size: 1.0rem; 
-       }
-    .fotosCarrusel1{
-        width: 150px;
-        height: 150px;
-        margin: 0 auto; }
-       }
-       .footerTamano{
-        width: 95%;
-        padding: 10px;
-        margin: 0 auto;  
-       }
-     
-    
-       
-     
-    
-
- 
-   
-
+      font-size: 1.0rem; }
+    .fotosCarrusel3 {
+      width: 350px;
+      height: 300px;
+      margin: 0 auto; } }
+  
+  /* Tabletas Styles */
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color: white; }
+    .espacioParrafo {
+      margin: 0 auto;
+      padding: 400px; }
+    p {
+      font-size: 1.0rem; }
+    .fotosCarrusel1 {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto; } }
+  
+  .footerTamano {
+    width: 95%;
+    padding: 10px;
+    margin: 0 auto; }
+  
