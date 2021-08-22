@@ -1,4 +1,32 @@
 @charset "UTF-8";
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: white; }
+  p {
+    font-size: 1.0rem; }
+  .fotosCarrusel3 {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto; } }
+
+/* Tabletas Styles */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: white; }
+  .espacioParrafo {
+    margin: 0 auto; }
+  p {
+    font-size: 1.0rem; }
+  .fotosCarrusel1 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; } }
+
+.footerTamano {
+  width: 100%;
+  margin: 0 auto; }
+
 * {
   margin: 0;
   padding: 0;
@@ -66,22 +94,22 @@ section .fotoVenta img {
   background-color: #ffc0cb; }
 
 .formulario {
-  border: #ffc0cb;
+  border: #ffc0cb #f897a7;
   height: 650px;
   width: 500px;
   margin: 20px;
   padding: 60px;
   display: inline-block;
-  border: double #ffc0cb; }
+  border: double #f897a7; }
 
 .btn-primary {
-  background-color: #ffc0cb;
-  border-color: #ffc0cb; }
+  background-color: #f897a7;
+  border-color: #f897a7; }
 
 .btn-primary:hover {
-  color: #212529;
+  color: #f4e4a9;
   background-color: #f4e4a9;
-  border-color: #ffc0cb; }
+  border-color: #f897a7; }
 
 .caja2020 {
   width: 300px;
@@ -135,7 +163,6 @@ main {
   padding: 15px; }
 
 .cuadroProceso {
-  background-color: #fcecee;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -162,47 +189,11 @@ main {
     text-align: center; }
   .infoProceso {
     width: 300px; }
-  .tamano {
+  .tamanoFormulario {
     width: 350px;
-    height: 700px;
-    margin: 0 auto; }
-  .tamanoUbicacion {
-    width: 350px;
-    height: 350px;
+    height: 650px;
     margin: 0 auto; } }
 
 .menu {
   margin: 0 auto;
   padding: 15px; }
-
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  p {
-    font-size: 1.0rem; } }
-
-/* Desktop Styles */
-@media only screen and (min-width: 1024px) {
-  body {
-    background-color: white; }
-  p {
-    font-size: 1.0rem; }
-  .fotosCarrusel3 {
-    width: 350px;
-    height: 300px;
-    margin: 0 auto; } }
-
-/* Tabletas Styles */
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: white; }
-  .espacioParrafo {
-    margin: 0 auto; }
-  p {
-    font-size: 1.0rem; }
-  .fotosCarrusel1 {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto; } }
-
-.footerTamano {
-  width: 100%;
-  margin: 0 auto; }

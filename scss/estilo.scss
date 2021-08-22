@@ -1,4 +1,6 @@
 @import "colores";
+@import "stylespag";
+
 * {
     margin: 0;
     padding: 0;
@@ -19,7 +21,7 @@
   
   nav {
     padding: 1rem;
-    background-color: #eb6b7e; }
+    background-color: $bgcolornav; }
     nav nav ul a {
       text-decoration: none;
       display: block; }
@@ -53,31 +55,35 @@
       section .fotoVenta img {
         object-fit: cover;
         overflow: visible;
-        margin: auto; }
+        margin: auto; 
+      }
   
   .scale:hover {
     transform: scale(1.1, 1.1); }
   
   .footer {
-    background-color: #ffc0cb; }
+    background-color: $bgcolorfooter; 
+  }
   
   .formulario {
-    border: #ffc0cb;
+    border: #ffc0cb$bgcolorformulario;
     height: 650px;
     width: 500px;
     margin: 20px;
     padding: 60px;
     display: inline-block;
-    border: double #ffc0cb; }
+    border: double $bgcolorformulario;
+   }
   
   .btn-primary {
-    background-color: #ffc0cb;
-    border-color: #ffc0cb; }
+    background-color: $bgcolorformulario;
+    border-color: $bgcolorformulario; }
   
   .btn-primary:hover {
-    color: #212529;
-    background-color: #f4e4a9;
-    border-color: #ffc0cb; }
+    color: $bgcolorboton;
+    background-color: $bgcolorboton;
+    border-color: $bgcolorformulario;
+   }
   
   .caja2020 {
     width: 300px;
@@ -88,7 +94,8 @@
     font-family: unset; }
   
   .subtitulo {
-    color: #af4d98; }
+    color: $bgcolorsubtitulo; 
+  }
   
   .contenedor {
     width: 200px;
@@ -98,7 +105,7 @@
     gap: 30px; }
   
   .hijo {
-    background-color: white;
+    background-color: $bgcolorfondos;
     justify-content: center;
     padding: 10px;
     margin: 20px; }
@@ -122,92 +129,50 @@
     height: 70px; }
   
   .icono1 {
-    background-color: white;
+    background-color: $bgcolorfondos;
     padding: 10px; }
   
   .icono2 {
-    background-color: white;
+    background-color: $bgcolorfondos;
     text-align: right;
     padding: 15px; }
 
-    .cuadroProceso {
-      background-color: #fcecee;
+  .cuadroProceso {
       display: flex;
       flex-direction:row;   
       flex-wrap: wrap;
       justify-content: flex-start;
-    }
-    .proceso{
+  }
+  .proceso{
       width: 100%;
       margin: 10px;
-     } 
+  } 
   
   /* Pequeños Styles  */
   @media only screen and (min-width: 401px) and (max-width: 960px) {
-      body {
-      background-color: #fcf8ee; }
-      p {
-      font-size: 1.0rem; }
-    .fotosCarrusel2 {
-      width: 350px;
-      height: 350px;
-      margin: 0 auto;
-      padding: 10px; } 
-      .quienesSomos{
-        width: 250px;
-        margin: 10px;
-        text-align: center;
-        }
-      .infoProceso{
-        width: 300px;
-      }
-      .tamano{
-        width: 350px;
-        height: 700px;
-        margin: 0 auto;
-      }
-      .tamanoUbicacion{
-        width: 350px;
-        height: 350px;
-        margin: 0 auto;
-      }
-
-    }
-  .menu {
+    body {
+    background-color: $bgfondoresponsy; }
+    p {
+    font-size: 1.0rem; }
+  .fotosCarrusel2 {
+    width: 350px;
+    height: 350px;
     margin: 0 auto;
-    padding: 15px; }
-
-    @media only screen and (min-width: 401px) and (max-width: 960px) {
-      p {
-        font-size: 1.0rem; }     
-     } 
-  
-  /* Desktop Styles */
-  @media only screen and (min-width: 1024px) {
-    body {
-      background-color: white; }
-    p {
-      font-size: 1.0rem; }
-    .fotosCarrusel3 {
-      width: 350px;
-      height: 300px;
-      margin: 0 auto; } }
-  
-  /* Tabletas Styles */
-  @media only screen and (min-width: 768px) {
-    body {
-      background-color: white; }
-    .espacioParrafo {
-      margin: 0 auto;
+    padding: 10px; } 
+    .quienesSomos{
+      width: 250px;
+      margin: 10px;
+      text-align: center;
       }
-    p {
-      font-size: 1.0rem; }
-    .fotosCarrusel1 {
-      width: 150px;
-      height: 150px;
-      margin: 0 auto; } }
-  
-  .footerTamano {
-    width: 100%;
-    margin: 0 auto; }
-  
+    .infoProceso{
+      width: 300px;
+    }
+    .tamanoFormulario{
+      width: 350px;
+      height: 650px;
+      margin: 0 auto; }
+   }
+.menu {
+  margin: 0 auto;
+  padding: 15px;
+}

@@ -1,0 +1,27 @@
+ /* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: $bgcolorfondos; }
+  p {
+    font-size: 1.0rem; }
+  .fotosCarrusel3 {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto; } }
+
+/* Tabletas Styles */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: $bgcolorfondos; }
+  .espacioParrafo {
+    margin: 0 auto; }
+  p {
+    font-size: 1.0rem; }
+  .fotosCarrusel1 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; } 
+  }
+ .footerTamano {
+    width: 100%;
+    margin: 0 auto; }
