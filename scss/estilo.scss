@@ -107,7 +107,8 @@
     transform: rotate(10deg); }
   
   .quienesSomos:hover {
-    transform: scale(0.9, 0.9); }
+    transform: scale(0.9, 0.9); 
+    text-align: center;}
   
   /* pruebass */
   main {
@@ -132,10 +133,12 @@
     .cuadroProceso {
       background-color: #fcecee;
       display: flex;
-      flex-direction:row;
-     }
-     .proceso{
-      width: 700px;
+      flex-direction:row;   
+      flex-wrap: wrap;
+      justify-content: flex-start;
+    }
+    .proceso{
+      width: 100%;
       margin: 10px;
      } 
   
@@ -157,19 +160,26 @@
         }
       .infoProceso{
         width: 300px;
-       
       }
-     
+      .tamano{
+        width: 350px;
+        height: 700px;
+        margin: 0 auto;
+      }
+      .tamanoUbicacion{
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
+      }
+
     }
-  
   .menu {
     margin: 0 auto;
     padding: 15px; }
 
     @media only screen and (min-width: 401px) and (max-width: 960px) {
       p {
-        font-size: 1.0rem; }
-     
+        font-size: 1.0rem; }     
      } 
   
   /* Desktop Styles */
@@ -189,7 +199,7 @@
       background-color: white; }
     .espacioParrafo {
       margin: 0 auto;
-      padding: 400px; }
+      }
     p {
       font-size: 1.0rem; }
     .fotosCarrusel1 {
