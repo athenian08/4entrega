@@ -274,9 +274,8 @@ section .fotoVenta img {
     padding: 10px;
   }
   .quienesSomos {
-    width: 250px;
-    margin: 10px;
-    text-align: center;
+    width: 340px;
+    margin: 5px;
   }
   .infoProceso {
     width: 300px;

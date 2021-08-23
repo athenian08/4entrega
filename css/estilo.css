@@ -183,9 +183,8 @@ section .fotoVenta img {
     margin: 0 auto;
     padding: 10px; }
   .quienesSomos {
-    width: 250px;
-    margin: 10px;
-    text-align: center; }
+    width: 340px;
+    margin: 5px; }
   .infoProceso {
     width: 300px; }
   .tamanoFormulario {
