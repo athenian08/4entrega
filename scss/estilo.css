@@ -1,74 +1,110 @@
 @charset "UTF-8";
-/* Pequeños Styles  */
-@media only screen and (min-width: 401px) and (max-width: 960px) {
-  body {
-    background-color: #fcf8ee;
-  }
-  p {
-    font-size: 1.0rem;
-  }
-  .fotosCarrusel2 {
-    width: 350px;
-    height: 350px;
-    margin: 0 auto;
-    padding: 10px;
-  }
-  .quienesSomos {
-    width: 250px;
-    margin: 10px;
-    text-align: center;
-  }
-  .infoProceso {
-    width: 300px;
-  }
-  .tamanoFormulario {
-    width: 350px;
-    height: 650px;
-    margin: 0 auto;
-  }
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: wrap;
+          flex-direction: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
-.menu {
-  margin: 0 auto;
+.principal {
+  width: 50%;
+  height: 70px;
+}
+
+.icono1 {
+  background-color: white;
+  padding: 10px;
+}
+
+.icono2 {
+  background-color: white;
+  text-align: right;
   padding: 15px;
 }
 
-/* Desktop Styles */
-@media only screen and (min-width: 1024px) {
-  body {
-    background-color: white;
-  }
-  p {
-    font-size: 1.0rem;
-  }
-  .fotosCarrusel3 {
-    width: 350px;
-    height: 300px;
-    margin: 0 auto;
-  }
+.fotosCarrusel2 {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto;
 }
 
-/* Tabletas Styles */
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: white;
-  }
-  .espacioParrafo {
-    margin: 0 auto;
-  }
-  p {
-    font-size: 1.0rem;
-  }
-  .fotosCarrusel1 {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-  }
+.caja2020 {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
 }
 
-.footerTamano {
+.contenedor {
+  width: 200px;
+  height: 500px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.hijo {
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.quienesSomos:hover {
+  -webkit-transform: scale(0.9, 0.9);
+          transform: scale(0.9, 0.9);
+  text-align: center;
+}
+
+.cuadroProceso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.proceso {
   width: 100%;
   margin: 0 auto;
+}
+
+.formulario {
+  border: #f897a7;
+  height: 650px;
+  width: 500px;
+  margin: 20px;
+  padding: 60px;
+  display: inline-block;
+  border: double #f897a7;
+}
+
+.btn-primary {
+  background-color: #f897a7;
+  border-color: #f897a7;
+}
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #f4e4a9;
+  border-color: #f897a7;
 }
 
 * {
@@ -131,12 +167,6 @@ nav nav ul a nav ul a:hover {
   margin: 0 auto;
 }
 
-.fotosCarrusel2 {
-  width: 800px;
-  height: 500px;
-  margin: 0 auto;
-}
-
 h1 {
   margin: 5px;
   padding: 5px;
@@ -178,33 +208,6 @@ section .fotoVenta img {
   background-color: #ffc0cb;
 }
 
-.formulario {
-  border: #ffc0cb #f897a7;
-  height: 650px;
-  width: 500px;
-  margin: 20px;
-  padding: 60px;
-  display: inline-block;
-  border: double #f897a7;
-}
-
-.btn-primary {
-  background-color: #f897a7;
-  border-color: #f897a7;
-}
-
-.btn-primary:hover {
-  color: #f4e4a9;
-  background-color: #f4e4a9;
-  border-color: #f897a7;
-}
-
-.caja2020 {
-  width: 300px;
-  height: 200px;
-  display: inline-block;
-}
-
 .titulo {
   font-family: unset;
 }
@@ -213,85 +216,47 @@ section .fotoVenta img {
   color: #af4d98;
 }
 
-.contenedor {
-  width: 200px;
-  height: 500px;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px;
-}
-
-.hijo {
-  background-color: white;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 10px;
-  margin: 20px;
-}
-
 .rotate:hover {
   -webkit-transform: rotate(10deg);
           transform: rotate(10deg);
 }
 
-.quienesSomos:hover {
-  -webkit-transform: scale(0.9, 0.9);
-          transform: scale(0.9, 0.9);
-  text-align: center;
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: white;
+  }
+  p {
+    font-size: 1.0rem;
+  }
+  .fotosCarrusel3 {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+  }
 }
 
-/* pruebass */
-main {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: wrap;
-          flex-direction: wrap;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+/* Tabletas Styles */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: white;
+  }
+  .espacioParrafo {
+    margin: 0 auto;
+  }
+  p {
+    font-size: 1.0rem;
+  }
+  .fotosCarrusel1 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
 }
 
-.principal {
-  width: 50%;
-  height: 70px;
-}
-
-.icono1 {
-  background-color: white;
-  padding: 10px;
-}
-
-.icono2 {
-  background-color: white;
-  text-align: right;
-  padding: 15px;
-}
-
-.cuadroProceso {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.proceso {
+.footerTamano {
   width: 100%;
-  margin: 10px;
+  margin: 0 auto;
 }
 
 /* Pequeños Styles  */

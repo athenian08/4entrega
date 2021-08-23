@@ -1,0 +1,29 @@
+.contenedor {
+    width: 200px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px; }
+  
+  .hijo {
+    background-color: $bgcolorfondos;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px; }
+  
+    .quienesSomos:hover {
+  
+    transform: scale(0.9, 0.9); 
+    text-align: center;} 
+   
+  .cuadroProceso {
+      display: flex;
+      flex-direction:row;   
+      flex-wrap: wrap;
+      justify-content: flex-start;
+  }
+  .proceso{
+      width: 100%;
+      margin: 0 auto;
+      
+  } 

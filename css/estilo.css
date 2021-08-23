@@ -1,31 +1,77 @@
 @charset "UTF-8";
-/* Desktop Styles */
-@media only screen and (min-width: 1024px) {
-  body {
-    background-color: white; }
-  p {
-    font-size: 1.0rem; }
-  .fotosCarrusel3 {
-    width: 350px;
-    height: 300px;
-    margin: 0 auto; } }
+main {
+  display: flex;
+  flex-direction: wrap;
+  flex-wrap: wrap;
+  justify-content: space-around; }
 
-/* Tabletas Styles */
-@media only screen and (min-width: 768px) {
-  body {
-    background-color: white; }
-  .espacioParrafo {
-    margin: 0 auto; }
-  p {
-    font-size: 1.0rem; }
-  .fotosCarrusel1 {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto; } }
+.principal {
+  width: 50%;
+  height: 70px; }
 
-.footerTamano {
+.icono1 {
+  background-color: white;
+  padding: 10px; }
+
+.icono2 {
+  background-color: white;
+  text-align: right;
+  padding: 15px; }
+
+.fotosCarrusel2 {
+  width: 800px;
+  height: 500px;
+  margin: 0 auto; }
+
+.caja2020 {
+  width: 300px;
+  height: 200px;
+  display: inline-block; }
+
+.contenedor {
+  width: 200px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px; }
+
+.hijo {
+  background-color: white;
+  justify-content: center;
+  padding: 10px;
+  margin: 20px; }
+
+.quienesSomos:hover {
+  transform: scale(0.9, 0.9);
+  text-align: center; }
+
+.cuadroProceso {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+.proceso {
   width: 100%;
   margin: 0 auto; }
+
+.formulario {
+  border: #f897a7;
+  height: 650px;
+  width: 500px;
+  margin: 20px;
+  padding: 60px;
+  display: inline-block;
+  border: double #f897a7; }
+
+.btn-primary {
+  background-color: #f897a7;
+  border-color: #f897a7; }
+
+.btn-primary:hover {
+  color: #212529;
+  background-color: #f4e4a9;
+  border-color: #f897a7; }
 
 * {
   margin: 0;
@@ -61,11 +107,6 @@ nav nav ul a nav ul a:hover {
   height: 30rem;
   margin: 0 auto; }
 
-.fotosCarrusel2 {
-  width: 800px;
-  height: 500px;
-  margin: 0 auto; }
-
 h1 {
   margin: 5px;
   padding: 5px;
@@ -93,84 +134,42 @@ section .fotoVenta img {
 .footer {
   background-color: #ffc0cb; }
 
-.formulario {
-  border: #ffc0cb #f897a7;
-  height: 650px;
-  width: 500px;
-  margin: 20px;
-  padding: 60px;
-  display: inline-block;
-  border: double #f897a7; }
-
-.btn-primary {
-  background-color: #f897a7;
-  border-color: #f897a7; }
-
-.btn-primary:hover {
-  color: #f4e4a9;
-  background-color: #f4e4a9;
-  border-color: #f897a7; }
-
-.caja2020 {
-  width: 300px;
-  height: 200px;
-  display: inline-block; }
-
 .titulo {
   font-family: unset; }
 
 .subtitulo {
   color: #af4d98; }
 
-.contenedor {
-  width: 200px;
-  height: 500px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 30px; }
-
-.hijo {
-  background-color: white;
-  justify-content: center;
-  padding: 10px;
-  margin: 20px; }
-
 .rotate:hover {
   transform: rotate(10deg); }
 
-.quienesSomos:hover {
-  transform: scale(0.9, 0.9);
-  text-align: center; }
+/* Desktop Styles */
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: white; }
+  p {
+    font-size: 1.0rem; }
+  .fotosCarrusel3 {
+    width: 350px;
+    height: 300px;
+    margin: 0 auto; } }
 
-/* pruebass */
-main {
-  display: flex;
-  flex-direction: wrap;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+/* Tabletas Styles */
+@media only screen and (min-width: 768px) {
+  body {
+    background-color: white; }
+  .espacioParrafo {
+    margin: 0 auto; }
+  p {
+    font-size: 1.0rem; }
+  .fotosCarrusel1 {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto; } }
 
-.principal {
-  width: 50%;
-  height: 70px; }
-
-.icono1 {
-  background-color: white;
-  padding: 10px; }
-
-.icono2 {
-  background-color: white;
-  text-align: right;
-  padding: 15px; }
-
-.cuadroProceso {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start; }
-
-.proceso {
+.footerTamano {
   width: 100%;
-  margin: 10px; }
+  margin: 0 auto; }
 
 /* Pequeños Styles  */
 @media only screen and (min-width: 401px) and (max-width: 960px) {

@@ -1,0 +1,19 @@
+.formulario {
+    border: $bgcolorformulario;
+    height: 650px;
+    width: 500px;
+    margin: 20px;
+    padding: 60px;
+    display: inline-block;
+    border: double $bgcolorformulario;
+   }
+  
+  .btn-primary {
+    background-color: $bgcolorformulario;
+    border-color: $bgcolorformulario; }
+  
+  .btn-primary:hover {
+    color: $bgcolorletraboton;
+    background-color: $bgcolorboton;
+    border-color: $bgcolorformulario;
+   }
